@@ -79,6 +79,6 @@ You see the last `OutputClaim` in `OutputClaims` is the new `identityaProviderTo
 also has access to the Facebook token and can call Facebook graph.
 
 A complete [TrustFrameworkExtensions.xml](./TrustFrameworkExtensions.xml) file is located [here in this repository](./TrustFrameworkExtensions.xml). 
-A Relying Party File is also placed here for your convenience.
+A [Relying Party File is also placed here](./SuSiLocalFb.xml) for your convenience.
 Be aware - here I am only showing you what you need
 to change, not how you can add Facebook as Identity Provider in a B2C tenant.
