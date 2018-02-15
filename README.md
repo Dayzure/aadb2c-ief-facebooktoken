@@ -82,3 +82,7 @@ A complete [TrustFrameworkExtensions.xml](./TrustFrameworkExtensions.xml) file i
 A [Relying Party File is also placed here](./SuSiLocalFb.xml) for your convenience.
 Be aware - here I am only showing you what you need
 to change, not how you can add Facebook as Identity Provider in a B2C tenant.
+
+## Do not forget
+Please do not forget the required permissions on Facebook when you plan to use the Facebook graph api!
+For example you need to request `publish_actions` if you plan to publish on users timeline (as per [documentation](https://developers.facebook.com/docs/graph-api/reference/v2.12/user/feed#publish)).
